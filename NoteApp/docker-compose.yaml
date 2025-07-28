@@ -1,0 +1,17 @@
+﻿version: '3'
+services:
+  azure-storage:
+    container_name: azure-storage
+    image: mcr.microsoft.com/azure-storage/azurite
+    ports:
+      - '10000:10000'
+      - '10001:10001'
+      - '10002:10002'
+  cosmosdb:
+    container_name: cosmosdb
+    image: 'mcr.microsoft.com/cosmosdb/linux/azure-cosmos-emulator:vnext-preview'
+    ports:
+      - '8081:8081'
+      - '1234:1234'
+    command: '--enable-explorer true --protocol https'
+    
