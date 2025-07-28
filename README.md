@@ -16,7 +16,7 @@ This design enables asynchronous request handling and promotes scalability, cost
 
 ## 🧱 Architecture Diagram
 
-<img src="https://raw.githubusercontent.com/andreferreiratrindade/note-app/refs/heads/main/documents/diagram.mdsvg?sanitize=true">
+<img src="https://raw.githubusercontent.com/andreferreiratrindade/note-app/refs/heads/main/documents/diagram.png">
 
 
 ---
